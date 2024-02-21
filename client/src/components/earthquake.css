@@ -1,0 +1,24 @@
+.earthquake{
+    margin: 5%;
+}
+
+.earthcard1{
+    background-color: white;
+    color: white;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  
+  .earthcard1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: black;
+  }
+
+  .earthcard1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+  }

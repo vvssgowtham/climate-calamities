@@ -1,0 +1,62 @@
+body{
+  background-image: url('https://drj.com/wp-content/uploads/2023/11/Hallberg-112823.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.home{
+  margin: 3%; 
+}
+
+.home h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.card1{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cardbody1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.card2{
+  background-color: white;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.card2 h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+.card2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
