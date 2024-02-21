@@ -10,7 +10,6 @@ body{
 }
 
 .home h1{
-  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: white;
 }
@@ -59,4 +58,57 @@ button{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   color: black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .card1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+
+  .card2 {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 15px;
+  }
+
+  .card2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .card2 p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home h1 {
+    font-size: 1.5rem;
+  }
+
+  .card1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .card2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  .card2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .card2 p {
+    font-size: 1rem;
+  }
 }
