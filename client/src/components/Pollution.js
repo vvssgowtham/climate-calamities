@@ -1,12 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./pollution.css";
 
 function Pollution() {
+    const navigate = useNavigate();
   return (
     <div className="pollution">
       <center>
-        <h1>
+        <h1 onClick={() => navigate("/")} style={{cursor: "pointer"}}>
           <u>POLLUTION</u>
         </h1>
       </center>

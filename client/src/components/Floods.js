@@ -1,12 +1,14 @@
 import React from "react";
 
 import "./floods.css";
+import { useNavigate } from "react-router-dom";
 
 function Floods() {
+    const navigate = useNavigate();
   return (
     <div className="floods">
       <center>
-        <h1>
+        <h1 onClick={() => navigate("/")} style={{cursor: "pointer"}}>
           <u>FLOODS</u>
         </h1>
       </center>

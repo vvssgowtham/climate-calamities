@@ -1,12 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./earthquake.css";
 
 function Earthquake() {
+    const navigate = useNavigate();
   return (
     <div className="earthquake">
       <center>
-        <h1>
+        <h1 onClick={() => navigate("/")} style={{cursor: "pointer"}}>
           <u>EARTHQUAKES</u>
         </h1>
       </center>
